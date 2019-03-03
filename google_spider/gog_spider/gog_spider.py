@@ -7,7 +7,7 @@ from google_spider.gog_spider.get_proxy import *
 import pprint
 
 def search_gog(query):
-    proxies = get_proxy_val()
+    proxies = None
     print(proxies)
     mg = MagicGoogle(proxies)
 
