@@ -8,6 +8,7 @@ import pprint
 
 def search_gog(query):
     proxies = get_proxy_val()
+    print(proxies)
     mg = MagicGoogle(proxies)
 
     result = mg.search_page(query=query)
