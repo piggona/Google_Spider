@@ -13,3 +13,6 @@ def search_gog(query):
     result = mg.search_page(query=query)
     for url in mg.search_url(query=query):
         pprint.pprint(url)
+
+if __name__ == "__main__":
+    search_gog("python")
