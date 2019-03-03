@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # auth：Haohao
 
-from google_spider.magic_google.magic_google.google import MagicGoogle
+from google_spider.magic_google.google import MagicGoogle
 from google_spider.gog_spider.get_proxy import *
 import pprint
 
